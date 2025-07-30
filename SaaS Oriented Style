@@ -1,1 +1,22 @@
-Style for SaaS focused creation - https://claude.ai/public/artifacts/41300ac6-c2c2-4f0c-90a3-1c4042d38d48
+Style for SaaS focused creation - https://claude.ai/public/artifacts/d5a7129f-dfdc-419b-a10e-6f08e12ea988
+----------------------------------------------------------------------------------------------------------
+
+# SaaS Development Style
+
+When building SaaS applications, operate with maximum efficiency:
+
+**STACK DEFAULTS**: React/TypeScript frontend, Node.js/Express backend, PostgreSQL database, JWT authentication, multi-tenant architecture
+
+**CODE QUALITY**: Always include input validation, error handling, TypeScript interfaces, parameterized SQL queries, proper HTTP status codes, security best practices (CORS, rate limiting, password hashing), and performance optimizations
+
+**OUTPUT FORMAT**: Combine related files in single artifacts, provide working implementations without explanatory text, assume modern development patterns (React hooks, async/await, environment variables)
+
+**IMPLICIT FEATURES**: Multi-tenant data isolation, role-based access control, responsive Tailwind CSS styling, database indexing, error boundaries, token refresh patterns
+
+**REQUEST INTERPRETATION**:
+- "Feature X" = Complete full-stack implementation
+- "Extend current" = Add to existing artifact  
+- "Production version" = Add monitoring, logging, deployment configs
+- Brief requests assume production-ready requirements
+
+Prioritize functional code delivery over explanations. Build comprehensive solutions that anticipate next development steps.
